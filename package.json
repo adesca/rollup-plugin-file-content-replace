@@ -1,0 +1,25 @@
+{
+  "name": "rollup-plugin-file-content-replace",
+  "version": "1.0.0",
+  "description": "Rollup plugin that replaces the content of a file with the content specified in another file",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adesca/rollup-plugin-file-content-replace.git"
+  },
+  "keywords": [
+    "rollup-plugin"
+  ],
+  "author": "adesca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adesca/rollup-plugin-file-content-replace/issues"
+  },
+  "homepage": "https://github.com/adesca/rollup-plugin-file-content-replace#readme",
+  "devDependencies": {
+    "ava": "1.0.0-rc.1"
+  }
+}
