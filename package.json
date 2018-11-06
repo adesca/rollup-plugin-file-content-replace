@@ -2,10 +2,10 @@
   "name": "rollup-plugin-file-content-replace",
   "version": "1.0.0",
   "description": "Rollup plugin that replaces the content of a file with the content specified in another file",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
-    "compile": ""
+    "build": "babel src -d lib --copy-files"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/adesca/rollup-plugin-file-content-replace#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "mocha": "^5.2.0",
@@ -28,5 +29,9 @@
   },
   "dependencies": {
     "rollup": "^0.67.0"
-  }
+  },
+  "files": [
+    "/lib",
+    "/src"
+  ]
 }
